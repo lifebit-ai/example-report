@@ -13,6 +13,9 @@ bash run_report.sh
 Rscript -e "rmarkdown::render('gwas_report.Rmd', params = list(manhattan='manhattan.png',qqplot='qqplot_ci.png', gwascat='gwascat_subset.csv', saige_results='saige_results_top_n.csv', trait_type='binary'))"
 ```
 
+> NOTE:
+
+If no outfile name is defined, the expected output file from the above function is `gwas_report.html`
 
 # How to provide custom parameters to the Rmd report file
 
