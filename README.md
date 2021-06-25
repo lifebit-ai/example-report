@@ -57,7 +57,7 @@ params:
 ```
 
 - The variable `manhattan` is a parameter.
-- The value `covid_1_manhattan.png` is just the default, it will be overwritten from the cli when defined in Rscript -e "rmarkdown::render('gwas_report.Rmd', params = list(manhattan='manhattan.png', trait_type='binary'))"
+- The value `covid_1_manhattan.png` is just the default, it will be overwritten from the cli when defined in `Rscript -e "rmarkdown::render('gwas_report.Rmd', params = list(manhattan='manhattan.png', trait_type='binary'))"`
 - The Rmd report file picks up the value by mentioning the variable as written in [gwas_report.Rmd#L56](https://github.com/lifebit-ai/example-report/blob/9ce5a0832d15f613fee1deaf65177c7124aaae95/gwas_report.Rmd#L56)
 
 
